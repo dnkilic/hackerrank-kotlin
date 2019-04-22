@@ -1,3 +1,3 @@
 package interview.linkedlist
 
-class SinglyLinkedListNode(val data: Int, val next: SinglyLinkedListNode?)
+class SinglyLinkedListNode(val data: Int, var next: SinglyLinkedListNode?)
