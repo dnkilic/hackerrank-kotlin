@@ -1,6 +1,6 @@
-package algorithms
+package datastructures
 
-// Complete the hourglassSum function below.
+// Complete the datastructures.hourglassSum function below.
 fun hourglassSum(arr: Array<Array<Int>>): Int {
     val list = mutableListOf<Int>()
     for (i in 0..3) {
