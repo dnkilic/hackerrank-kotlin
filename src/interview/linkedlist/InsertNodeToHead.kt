@@ -1,5 +1,7 @@
 package interview.linkedlist
 
 fun insertNodeAtHead(llist: SinglyLinkedListNode, data: Int): SinglyLinkedListNode {
-   return SinglyLinkedListNode(data, llist)
+   val newNode = SinglyLinkedListNode(data)
+   newNode.next = llist
+   return newNode
 }
