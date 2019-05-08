@@ -1,4 +1,4 @@
-package algorithms
+package interview.stack
 
 import java.util.*
 
